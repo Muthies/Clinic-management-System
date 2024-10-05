@@ -1,0 +1,9 @@
+{
+  "development": {
+    "username": "your_pg_username",
+    "password": "your_pg_password",
+    "database": "clinic_management",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}

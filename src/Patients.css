@@ -1,0 +1,108 @@
+/* Patients.css */
+
+.patients-container {
+  background-color:skyblue; /* Light background color */
+  padding: 40px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.patients-heading {
+  color:darkblue;
+  font-size: 32px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.patients-edit-form {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+  width: 100%;
+  max-width: 600px;
+}
+
+.patients-edit-form label {
+  display: block;
+  margin: 10px 0 5px;
+  color: #333;
+}
+
+.patients-edit-form input,
+.patients-edit-form select,
+.patients-edit-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.patients-list {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+  max-width: 800px;
+}
+
+.patients-list-item {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.update-button, .delete-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.update-button {
+  background-color: #0056b3;
+  color: white;
+  margin-right: 10px;
+}
+
+.update-button:hover {
+  background-color: #003f7f;
+}
+
+.delete-button {
+  background-color: #d9534f;
+  color: white;
+}
+
+.delete-button:hover {
+  background-color: #c9302c;
+}
+
+.submit-button, .cancel-button {
+  padding: 10px 20px;
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.submit-button:hover {
+  background-color: #003f7f;
+}
+
+.cancel-button:hover {
+  background-color: #c9302c;
+}

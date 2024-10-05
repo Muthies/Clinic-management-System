@@ -1,0 +1,40 @@
+.patient-graph {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .patient-graph h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    color:darkblue;
+    margin-bottom: 100px;
+    margin-top: 50px;
+  }
+  
+  .recharts-wrapper {
+    margin: 0 auto;
+  }
+  
+  .recharts-tooltip-wrapper {
+    background-color:skyblue !important;
+    border-radius: 5px !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+  }
+  
+  .recharts-legend-wrapper {
+    font-size: 14px;
+  }
+  
+  .recharts-cartesian-grid line {
+    stroke: #eee;
+  }
+  
+  .recharts-label-list {
+    fill: #333;
+    font-size: 14px;
+  }
+  

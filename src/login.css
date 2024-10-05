@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+.login-background {
+  background-color: #87ceeb; /* Sky blue background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.login-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* White login box */
+.login-box {
+  background-color: #ffffff; /* White background */
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4); /* More pronounced shadow */
+  width: 400px;
+  text-align: center;
+  backdrop-filter: blur(10px); /* Glassmorphism effect */
+  color: black; /* Black text for contrast */
+}
+
+/* Add transitions to give the design a smooth feel */
+.login-box:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+.login-header {
+  margin-bottom: 20px;
+}
+
+.login-image {
+  width: 80px;
+  height: 80px;
+   /* White background for image */
+  border-radius: 50%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.login-image:before {
+  content: '';
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #0056b3; /* Dark blue border */
+  border-radius: 50%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-input {
+  background-color:lightgray; /* Grey background for input */
+  border: 2px black; 
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 8px;
+  color: black; /* Black text color */
+  font-size: 16px;
+}
+
+.login-input::placeholder {
+  color: grey; /* Placeholder text color */
+}
+
+.remember-me {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.forgot-password {
+  color: black;
+  text-decoration: none;
+}
+
+.login-btn {
+  background-color: #0056b3; /* Dark blue background */
+  color: white;
+  border: none;
+  padding: 12px 24px; /* Increased padding for a wider button */
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease, outline 0.2s ease;
+  outline: 2px solid transparent; /* Default no outline */
+}
+
+.login-btn:hover {
+  background-color: #004494; /* Darker blue on hover */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Box-shadow effect */
+  transform: scale(1.05); /* Slight scaling for a "pop" effect */
+  outline: 2px solid #ffffff; /* White outline appears on hover */
+}
+
+.login-btn:active {
+  transform: scale(0.98); /* Slight shrinking effect when button is clicked */
+  box-shadow: none; /* Remove shadow when pressed */
+}
+
+/* Role selection styling */
+.role-selection {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  font-size: 20px;
+  
+}
+
+.role-selection label {
+  margin: 0 15px;
+  color: black; /* Ensure text is readable */
+}
+
+.login-title {
+  color:darkblue; /* Changed to black for contrast */
+  margin-bottom: 20px;
+  font-size: 36px;
+}
